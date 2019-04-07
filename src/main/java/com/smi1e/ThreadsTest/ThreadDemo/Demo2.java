@@ -5,6 +5,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
+/**
+ * Description ：能同一时间运行的最大线程
+ */
+
 @Slf4j
 public class Demo2 {
     private static int ThreadNum = 200;

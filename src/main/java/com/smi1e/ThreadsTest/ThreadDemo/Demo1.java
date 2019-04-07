@@ -9,6 +9,7 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * 简单测试多线程并发访问
+ * CountDownLatch  减到0时等待的线程继续执行
  */
 @Slf4j
 public class Demo1 {
